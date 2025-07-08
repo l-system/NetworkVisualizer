@@ -26,28 +26,12 @@ psutil
 scapy
 
 Install dependencies with:
-
-bash
-Copy
-Edit
 pip install -r requirements.txt
 
 
 Note: On Linux, root privileges may be needed for certain functions like traceroute or port scanning.
 
 
-Network Visualizer/
-├── main.py                 # Entry point
-├── main_window.py          # Main GUI logic
-├── lan_sniffer.py          # LAN device scanner
-├── port_scan.py            # Port scanning functionality
-├── traceroute_thread.py    # Traceroute logic
-├── dns_resolver.py         # DNS resolution thread
-├── network_logger.py       # Logging utility
-├── constants.py            # UI and config constants
-├── widgets.py              # Custom PyQt widgets
-├── data_structures.py      # Core data models
-└── ...
 
 
 
