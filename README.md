@@ -20,11 +20,10 @@ Screenshots
 Requirements
 Python 3.8+
 
-Dependencies:
-
+Dependencies: 
 PyQt6
-
 psutil
+scapy
 
 Install dependencies with:
 
@@ -32,24 +31,12 @@ bash
 Copy
 Edit
 pip install -r requirements.txt
+
+
 Note: On Linux, root privileges may be needed for certain functions like traceroute or port scanning.
 
-Usage
-bash
-Copy
-Edit
-python main.py
-If you're on Linux and need full functionality:
 
-bash
-Copy
-Edit
-pkexec python main.py
-Project Structure
-bash
-Copy
-Edit
-NetViz/
+Network Visualizer/
 ├── main.py                 # Entry point
 ├── main_window.py          # Main GUI logic
 ├── lan_sniffer.py          # LAN device scanner
@@ -61,5 +48,8 @@ NetViz/
 ├── widgets.py              # Custom PyQt widgets
 ├── data_structures.py      # Core data models
 └── ...
+
+
+
 License
 MIT License
